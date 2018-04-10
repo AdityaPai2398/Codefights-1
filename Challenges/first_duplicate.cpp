@@ -13,13 +13,13 @@ int firstDuplicate(vector<int> a) {
 
       if(count[a[i]]>1)
       {  t++;
-          cout<<a[i];
+          return a[i];
           break;
       }
 
 
     }
     if(t==0)
-        cout<<"-1";
+        return -1;
 }
 
